@@ -1,4 +1,4 @@
-var Limage = loadImage("https://i.redd.it/kangel-gifs-for-carrd-rentry-3-v0-7gxphua75d3d1.gif?width=768&auto=webp&s=7cc62580c4fa699d153def5a947c52ab9f2e4f72");
+var Limage = loadImage("https://png.pngtree.com/png-clipart/20240209/ourmid/pngtree-love-envelopes-png-image_11618577.png");
 
 
 //🟢setup Function - will run once
@@ -6,11 +6,13 @@ setup = function() {
     size(700, 500);
     background(255,255,255,0);
     
-    drawStar(230, 50, color(126, 56, 111)); 
+    drawStar(230, 50, color(255, 255, 255)); 
 
    drawLetter(270, 100)
 
    drawOpen(100, 100)
+
+   drawWow(270, 200)
 
    
     
@@ -54,7 +56,14 @@ text("ଘ(੭*ˊᵕˋ)੭˚", openX, openY)
 
 }
 
+// drawWow function - will run when called
+var drawWow = function (wowX, wowY){
 
+fill(255,255,255)
+
+text("⁀➴ 𝕠 𝕡 𝕖 𝕟 ?", wowX, wowY)
+
+}
 
 
 
